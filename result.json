@@ -1,0 +1,53 @@
+[
+    {
+        "case": 1,
+        "expected": 0,
+        "output": 0,
+        "result": true
+    },
+    {
+        "case": 2,
+        "expected": 3,
+        "output": 3,
+        "result": true
+    },
+    {
+        "case": 3,
+        "expected": -14,
+        "output": -14,
+        "result": true
+    },
+    {
+        "case": 4,
+        "expected": -1791,
+        "output": -1791,
+        "result": true
+    },
+    {
+        "case": 5,
+        "expected": 0,
+        "output": 0,
+        "result": true
+    },
+    {
+        "case": 6,
+        "expected": 49,
+        "output": 49,
+        "result": true
+    },
+    {
+        "case": 7,
+        "expected": -4175,
+        "output": -4175,
+        "result": true
+    },
+    {
+        "case": 8,
+        "expected": -3323582,
+        "output": -3323582,
+        "result": true
+    },
+    {
+        "success": true
+    }
+]
