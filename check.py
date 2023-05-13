@@ -21,9 +21,9 @@ try:
                 "result": result
             }
             out.write(dumps(result_dict) + "\n")
-        if all(results):
-            out.write(dumps({"success": True}))
-        else:
-            out.write(dumps({"success": False}))
+            if all(results):
+                out.write(dumps({"success": True}))
+            else:
+                out.write(dumps({"success": False}))
 except IOError:
     print("Error: File not found")
